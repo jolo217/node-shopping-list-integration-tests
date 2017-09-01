@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Cyeah3jZgf5Z7jSWlsMfBQUW5l4q3cba8jI9XZBPPynPU9YgFofcbavuxD7IEoYq1vYfxx6Zb6YSptYEAyVkPKXV/XKpVQnbxu2zyE9XnmmD2lcwTQkis6ZdvkpCMIZ+2cvUHZ/M7mJE1Aek4kGHIL+cgIb5lKRoT5e6dLwR7iJCjFQtMWr3eKjYhOMUzkIRfGZktoZ/gz55UX37mMSVjRbYYpjK4mHPiWT9cy9DbPKF1n2xNC6ykxi2Oiogs7G8OF/UQaraSC0eB3Yxzg585rbmTEV67ekdYrJvD671UJ+BDVu804xgJfeCYJhqcOlYgW3V5E4gev64y616TTNq1F6HyZz/6gFgWIYBMMcML0mqk/45Pdz3jpw+OVOkpRqs4bN9CsZ9pgCNU+22GcD3QK8J5X2LrCNgNZn0I6/74enZ5HqR+lSTR/gVRtMmsclvdWVvY+8hrcE6biDj43fGckV/iAZacAnQXvKFrQIk1gIjCsq9ElccfBqLEhnvMMONp8YTESfZopcmYbY1oY7mZgB3h0hYpzyq/4XqX7TXHoElcxLJ/Szgyuq5WN4kysJ4KXZf+kCMr5xMhH5hKqPOaaG0QRkt7PYHuI7+KXhxfpu2Tkb7CxB/LGX5emYL+vi0n6tgTtMCG6SVGBCYVDAMZN3T71Mi0V5jwtwFIqjaybs=
+  app: limitless-chamber-30806
+  on:
+    repo: jolo217/node-shopping-list-integration-tests
